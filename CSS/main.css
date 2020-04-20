@@ -1,0 +1,207 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Quicksand, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 80px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.nav-item {
+    transition: font-weight 5s frames(5);
+}
+
+.nav-item:hover {
+    font-weight: bolder;
+}
+
+.btn-outline-light {
+    font-size: 100%;
+}
+
+.jumbotron {
+    padding: 4rem;
+    border-radius: 0;
+    height: auto;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.col-md-12 {
+    padding-top: 20px;
+}
+
+.fa-instagram {
+    color: #696969;
+    font-size: 35px;
+    /* padding-right: 20px; */
+    transition: color 0.5s ease;
+}
+
+.fa-telegram {
+    color: #696969;
+    font-size: 35px;
+    /* padding-right: 20px; */
+    transition: color 0.5s ease;
+}
+
+.fa-envelope {
+    color: #696969;
+    font-size: 35px;
+    /* padding-right: 20px; */
+    transition: color 0.5s ease;
+}
+
+.fa-linkedin {
+    color: #696969;
+    /* padding-right: 20px; */
+    font-size: 35px;
+    transition: color 0.5s ease;
+}
+
+.fa-instagram:hover {
+    color: #3f729b;
+}
+
+.fa-telegram:hover {
+    color: #0088CC;
+}
+
+.fa-envelope:hover {
+    color: #D44638;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+footer {
+    background-color: #D3D3D3;
+    color: #d5d5d5;
+    align-content: center;
+    justify-content: center;
+    /* padding-top: 2rem; */
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: auto;
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoom:hover img {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.zoom img {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+*/ #project_image {
+    transition: 1s;
+}
+
+#project_image:hover {
+    opacity: 0.7;
+}
+
+
+/* #ttgame {
+    padding-top: 90px;
+    justify-content: center;
+    align-items: center;
+} */
+
+#name,
+#email,
+#message,
+#phnnumber,
+#country {
+    border-color: #004aad;
+}
+
+#messagesent {
+    padding: 10px;
+    background: rgb(40, 190, 40);
+    color: #fff;
+    margin: 10px;
+    display: none;
+}
+
+#particles-js {
+    width: 100%;
+    height: 80%;
+}
+
+.banner-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.banner-area h2 span {
+    color: #004aad;
+    font-weight: 800;
+    font-size: larger;
+}
